@@ -12,6 +12,7 @@ em
 h1,h2,h3
 {
 	color: #006699;
+	margin: 0px;
 	text-align: center;
 	width: 98%;
 }
@@ -29,6 +30,11 @@ h2
 h3
 {
 	font-size: 1em;
+}
+
+#presentacion
+{
+	margin: 0px;
 }
 
 .botones_main
@@ -180,6 +186,7 @@ h3
 {
 	background-color: #fff;
 	border-radius: 1em;
+	display: inline-block;
 	height: 90%;
 	margin: 1em auto;
 	width: 90%;
@@ -189,9 +196,10 @@ h3
 {
 	border-radius: 1em;
 	height: 88%;
-	margin: 7px 10px;
+	display: inline-block;
+	margin: 0px;
 	padding: 5px;
-	width: 87%;
+	width: 80%;
 }
 
 .prevs1_text
@@ -204,11 +212,18 @@ h3
 
 .prevs2_text
 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	margin: 0px;
 	padding: 0px;
 	text-align: left;
 }
+
+.prevs2 li
+{
+	margin: 10px 0px;
+	text-align: left;
+}
+
 
 .prevs img
 {
@@ -246,8 +261,8 @@ h3
 
 #st_contenidos
 {
-	background: url("imagenes/interfaz.png") no-repeat;
-	/*border: 1px solid #000;*/
+	/*background: url("imagenes/interfaz.png") no-repeat;
+	border: 1px dashed #ccc;*/
 	display: inline-block;
 	height: 100%;
 	margin: 0;
