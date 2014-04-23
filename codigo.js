@@ -5,21 +5,21 @@ var btn=0;
 var contenidos=0;
 function arranque(){
 	console.log($("h1").attr("id"));
-	urls_contenidos=[["bienvenida"],
-					["cont2","cont3","cont4","cont5","cont6","cont7","cont8","cont9","cont10","cont11"],
-					["cont12","cont13","cont14"],
-					["cont15","cont16","cont17"],
-					["cont18","cont19","cont20","cont21","cont22","cont23","cont24","cont25","cont26","cont27","cont28","cont29","cont30","cont31"],
-					["cont32"],
-					["cont33","cont34","cont35","cont36","cont37","cont38","cont39","cont40","cont41","cont42"]];
+	urls_contenidos=[["1_bienvenida"],
+					["2_texto1","3_contenido1","4_himnoUnisangil","5_historia","6_texto2","7_contenido2","8_contenido3","9_contenido4","10_texto3","11_contenido5"],
+					["12_contenido6","13_contenido7","14_texto4"],
+					["15_texto5","16_reglamentoInterno","17_reglamentoDocente"],
+					["18_texto6","19_contenido8","20_texto7","21_contenido9","22_contenido10","23_contenido11","24_contenido12","25_contenido13","26_texto8","27_contenido14","28_texto9","29_contenido15","29_contenido15_conclusion","30_texto10","31_contenido16"],
+					["32_contenido17"],
+					["33_texto11","34_contenido18","35_contenido19","36_texto12","37_contenido20","38_contenido21","39_contenido22","40_contenido23","41_texto13","42_texto14"]];
 	//window.alert(urls_contenidos);
 	titulos=["Bienvenido a Unisangil","El sentido de nuestro quehacer","Así nos organizamos","Pautas y Medidas orientadoras","Nuestro Ideal Educativo","Medios de Información y Comunicación","Salud ocupacional"];
-	/*$("#menu_lateral2").on("click",clic_menu);
+	$("#menu_lateral2").on("click",clic_menu);
 	$(".botones").on("click",clic_btns);
 	$("#st_nav_der").on("click",clic_h_der);
 	$("#st_nav_izq").on("click",clic_h_izq);
 	$("#menu_interno1").on("click",clic_t_izq);
-	$("#menu_interno2").on("click",clic_t_der);*/
+	$("#menu_interno2").on("click",clic_t_der);
 	$(".botones").on("mouseover",pasar);
 	$(".st_navs").css("visibility","hidden");
 	$("#menu_interno1").css("visibility","hidden");
@@ -29,6 +29,8 @@ function arranque(){
 }
 
 function pasar(datos){
+	$("#prevs1_0").css("display","none");
+	$("#prevs2_0").css("display","none");
 	$(".prevs1").css("display","none");
 	$(".prevs2").css("display","none");
 	var temp=""+datos.target.id;
@@ -39,8 +41,13 @@ function pasar(datos){
 
 function clic_btns(datos){
 	btn=parseInt($(datos.target).attr("id").charAt($(datos.target).attr("id").length-1));//del id del botón presionado, se saca el último caracter y éste se convierte en número
+	console.log(btn);
 	contenidos=0;
-	$("#st_nav_der").css("visibility","visible");
+	if(btn==6){
+		$("#st_nav_der").css("visibility","hidden");
+	}else{
+		$("#st_nav_der").css("visibility","visible");
+	}
 	$("#frame").fadeIn();
 	$("#frame").attr("src", "contenidos/"+urls_contenidos[btn-1][contenidos]+"/index.html");
 	$("#menu_central p").text(titulos[btn-1]);
@@ -48,6 +55,7 @@ function clic_btns(datos){
 	$("#menu_interno2").css("visibility","visible");
 	if(btn==1){
 		$("#menu_interno1").css("visibility","hidden");
+		$("#st_nav_der").css("visibility","hidden");
 	}
 	if(btn==urls_contenidos.length){
 		$("#menu_interno2").css("visibility","hidden");
@@ -55,7 +63,7 @@ function clic_btns(datos){
 }
 
 function clic_h_der(datos){
-	//window.alert("el derecho: "+contenidos);
+	console.log("el derecho: "+contenidos);
 	contenidos++;
 	$("#st_nav_izq").css("visibility","visible");
 	$("#frame").fadeIn();
@@ -79,7 +87,6 @@ function clic_h_izq(datos){
 }
 
 function clic_t_der(datos){
-	//window.alert("el topic derecho: "+btn+" - "+urls_contenidos[btn][0]);
 	btn++;
 	contenidos=0;
 	$("#st_nav_der").css("visibility","visible");
@@ -88,6 +95,11 @@ function clic_t_der(datos){
 	$("#frame").fadeIn();
 	$("#frame").attr("src", "contenidos/"+urls_contenidos[btn-1][contenidos]+"/index.html");
 	$("#menu_central p").text(titulos[btn-1]);
+	if(btn==6){
+		$("#st_nav_der").css("visibility","hidden");
+	}else{
+		$("#st_nav_der").css("visibility","visible");
+	}
 	if(btn==urls_contenidos.length){
 		$("#menu_interno2").css("visibility","hidden");
 		console.log("final topic derecho");
@@ -104,6 +116,11 @@ function clic_t_izq(datos){
 	$("#frame").fadeIn();
 	$("#frame").attr("src", "contenidos/"+urls_contenidos[btn-1][contenidos]+"/index.html");
 	$("#menu_central p").text(titulos[btn-1]);
+	if(btn==6){
+		$("#st_nav_der").css("visibility","hidden");
+	}else{
+		$("#st_nav_der").css("visibility","visible");
+	}
 	if(btn==1){
 		$("#menu_interno1").css("visibility","hidden");
 		//window.alert("final topic izquierdo");

@@ -182,7 +182,7 @@ h3
 	width: 460px;
 }
 
-.prevs1
+.prevs1, #prevs1_0
 {
 	background-color: #fff;
 	border-radius: 1em;
@@ -192,7 +192,7 @@ h3
 	width: 90%;
 }
 
-.prevs2
+.prevs2, #prevs2_0
 {
 	border-radius: 1em;
 	height: 88%;
@@ -202,7 +202,7 @@ h3
 	width: 80%;
 }
 
-.prevs1_text
+.prevs1_text, #prevs1_0_text
 {
 	font-size: 1.6em;
 	font-weight: bold;
@@ -218,7 +218,21 @@ h3
 	text-align: left;
 }
 
+#prevs2_0_text
+{
+	font-size: 1em;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
 .prevs2 li
+{
+	margin: 10px 0px;
+	text-align: left;
+}
+
+#prevs2_0 li
 {
 	margin: 10px 0px;
 	text-align: left;
@@ -230,6 +244,14 @@ h3
 	margin: 0px;
 	padding: 0px;
 }
+
+.img_guia
+{
+	position: relative;
+	left: -190px;
+	top: -170px;
+}
+
 
 #stage
 {
@@ -302,10 +324,10 @@ h3
 
 #menu_central p
 {
-	color: #f00;
+	color: #ff9900;
 	font-size: 1.2em;
 	font-weight: bold;
-	margin: 1em auto;
+	margin: 0.1em auto;
 	padding: 0;
 	width: 160px;
 	text-align: center;
@@ -365,6 +387,6 @@ h3
 	margin: 0;
 	padding: 0;
 	position: relative;
-	top: -966px;
+	top: -515px;
 	width: 720px;
 }
