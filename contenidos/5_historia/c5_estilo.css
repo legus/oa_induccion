@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'breeserif';
+    src: url('fuentes/breeserif.eot');
+    src: url('fuentes/breeserif.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/breeserif.woff') format('woff'),
+         url('fuentes/breeserif.ttf') format('truetype'),
+         url('fuentes/breeserif.svg#BreeSerifRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-size:16px;
+}
+
+em{
+	font-weight: bold;
+}
+
+h1{
+	color:rgb(18, 112, 191);
+	font-family:breeserif;
+	font-size:1.5em;
+	margin:0 auto;
+	padding:0px 5px;
+	text-align:center;
+	text-shadow: 1px 1px 0.5px #000;
+	width:450px;
+}
+
+h2{
+	color:rgb(229, 163, 30);
+	font-size:1.2em;
+	font-weight:bold;
+	height:30px;
+	margin:0px;
+	padding-top:5px;
+	text-align:center;
+	width:680px;
+}
+
+#botonera{
+	/*margin-left:0px;
+	margin-top:100px;
+	position:absolute;*/
+	display: inline-block;
+	margin: 0px;
+	width:720px;
+}
+
+#contenido_interactivo{
+	background: #f1e767; /* Old browsers */
+	background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1e767), color-stop(100%,#feb645)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f1e767 0%,#feb645 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+	-pie-background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%);/*descriptor de pie para hacer funcionar con IE9 e inferior*/
+	border-radius: .5em;
+	height:520px;
+	margin: 0 auto;
+	width:720px;
+	behavior: url(PIE.htc);
+}
+
+/*#pagina1{
+	display:none;
+}*/
+
+
+#recuadro{
+	background: #fff;
+	height:406px;
+	width:720px;
+}
+
+
+.botones{
+	background-color:#990000;
+	border-radius:2px;
+	color:#fff;
+	display:inline-block;
+	font-family:Arial;
+	font-size:0.7em;
+	height:41px;
+	padding: 0px 1px;
+	margin:0.2em 0.1em;
+	vertical-align: top;
+	width:94.5px;
+	text-align:center;
+}
+
+.botones:hover{
+	box-shadow: rgba(0,0,0,.9) 0px 4px 10px;
+	cursor:pointer;
+	-ms-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+	z-index:1;
+}
+
+.recuadros{
+	color:rgb(18, 112, 191);
+	/*display:none;*/
+	height:406px;
+	margin:0px;
+	width:720px;
+}

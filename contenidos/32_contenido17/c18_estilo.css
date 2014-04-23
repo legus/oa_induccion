@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'breeserif';
+    src: url('fuentes/breeserif.eot');
+    src: url('fuentes/breeserif.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/breeserif.woff') format('woff'),
+         url('fuentes/breeserif.ttf') format('truetype'),
+         url('fuentes/breeserif.svg#BreeSerifRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-size:16px;
+}
+
+em{
+	font-weight: bold;
+}
+
+h1{
+	color:rgb(18, 112, 191);
+	font-family:breeserif;
+	font-size:1.5em;
+	margin:0 auto;
+	padding:10px 3px 3px 3px;
+	text-align:center;
+	text-shadow: 1px 1px 0.5px #000;
+	width:560px;
+}
+
+h2{
+	color:rgb(229, 163, 30);
+	font-size:1.2em;
+	font-weight:bold;
+	height:30px;
+	margin:0px;
+	padding-top:5px;
+	text-align:center;
+	width:680px;
+}
+
+#botonera{
+	margin-left:0px;
+	margin-top:100px;
+	position:absolute;
+	width:720px;
+}
+
+#contenido_interactivo{
+	background: #f1e767; /* Old browsers */
+	background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1e767), color-stop(100%,#feb645)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f1e767 0%,#feb645 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+	-pie-background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%);/*descriptor de pie para hacer funcionar con IE9 e inferior*/
+	border-radius: .5em;
+	height:520px;
+	margin: 0 auto;
+	width:720px;
+	behavior: url(PIE.htc);
+}
+
+#logo{
+	background: url("imagenes/logo.png") no-repeat;
+	top: 15px;
+	height: 20px;
+	position: absolute;
+	width: 59px;
+	height: 50px;
+}
+
+#pagina1{
+	display:none;
+}
+
+#rec0{
+	border-radius:5px;
+	color:rgb(229, 163, 30);
+	display:inline-block;
+	font-family:breeserif;
+	font-size:2em;
+	height:100px;
+	margin-top:2em;
+	margin-left:0.3em;
+	margin-right:0.3em;
+	text-align: center;
+	width:660px;
+}
+
+#rec0 p{
+	margin-bottom: 2em;
+}
+
+#rec0 span{
+	/*border: 1px solid #000;*/
+	color:#CCC;
+	display: inline-block;
+	font-family:Verdana;
+	font-size:0.7em;
+	padding-top: 3px;
+	text-align: right;
+	vertical-align: top;
+}
+
+
+#recuadro{
+	background: #fff;
+	border-radius: 30px;
+	height:340px;
+	margin-top:5px;
+	margin-left:15px;
+	width:690px;
+}
+
+
+.botones{
+	background-color:#990000;
+	border-radius:5px;
+	color:#fff;
+	display:inline-block;
+	font-family:breeserif;
+	font-size:0.9em;
+	height:3.5em;
+	padding: 5px;
+	margin:0.1em;
+	position:relative;
+	width:6em;
+	text-align:center;
+}
+
+.botones:hover{
+	box-shadow: rgba(0,0,0,.9) 0px 4px 10px;
+	cursor:pointer;
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+	z-index:1;
+}
+
+.imgs1{
+	float: right;
+	margin-left: 10px;
+	width:150px;
+}
+
+.imgs2{
+	float: left;
+	margin-right: 10px;
+	width:150px;
+}
+
+.recuadros{
+	color:rgb(18, 112, 191);
+	display:none;
+	font-family:breeserif;
+	font-size:0.9em;
+	height:270px;
+	margin-left:20px;
+	text-align:justify;
+	width:660px;
+}
