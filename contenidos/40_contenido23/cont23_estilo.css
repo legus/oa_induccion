@@ -103,6 +103,8 @@ h2{
 	margin-right:0.3em;
 	text-align: center;
 	width:480px;
+	*display: inline;
+	zoom: 1;
 }
 
 #rec0 h1{
@@ -126,6 +128,8 @@ h2{
 	padding-top: 3px;
 	text-align: right;
 	vertical-align: top;
+	*display: inline;
+	zoom: 1;
 }
 
 
@@ -148,7 +152,7 @@ h2{
 	color:rgb(18, 112, 191);
 	display:none;
 	font-family:breeserif;
-	font-size:0.9em;
+	font-size:1em;
 	position:relative;
 	top:0px;
 	left:0px;
@@ -170,6 +174,8 @@ h2{
 	background:url('imagenes/1.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton1:hover, .boton2:hover, .boton3:hover, .boton4:hover, .boton5:hover, .boton6:hover, .boton7:hover, .boton8:hover, .boton9:hover, .boton10:hover, .boton11:hover, .boton12:hover, .boton13:hover, .boton14:hover, .boton15:hover, .boton16:hover, .boton17:hover, .boton18:hover, .boton19:hover, .boton20:hover, .boton21:hover{
@@ -191,6 +197,8 @@ h2{
 	background:url('imagenes/2.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton3{
@@ -202,6 +210,8 @@ h2{
 	background:url('imagenes/3.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton4{
@@ -213,6 +223,8 @@ h2{
 	background:url('imagenes/4.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton5{
@@ -224,6 +236,8 @@ h2{
 	background:url('imagenes/5.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton6{
@@ -235,6 +249,8 @@ h2{
 	background:url('imagenes/6.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton7{
@@ -246,6 +262,8 @@ h2{
 	background:url('imagenes/7.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton8{
@@ -257,6 +275,8 @@ h2{
 	background:url('imagenes/8.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton9{
@@ -268,6 +288,8 @@ h2{
 	background:url('imagenes/9.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton10{
@@ -279,6 +301,8 @@ h2{
 	background:url('imagenes/10.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton11{
@@ -290,6 +314,8 @@ h2{
 	background:url('imagenes/11.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton12{
@@ -301,6 +327,8 @@ h2{
 	background:url('imagenes/12.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton13{
@@ -312,6 +340,8 @@ h2{
 	background:url('imagenes/13.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton14{
@@ -323,6 +353,8 @@ h2{
 	background:url('imagenes/14.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton15{
@@ -334,6 +366,8 @@ h2{
 	background:url('imagenes/15.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton16{
@@ -345,6 +379,8 @@ h2{
 	background:url('imagenes/16.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton17{
@@ -356,6 +392,8 @@ h2{
 	background:url('imagenes/17.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton18{
@@ -367,6 +405,8 @@ h2{
 	background:url('imagenes/18.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton19{
@@ -378,6 +418,8 @@ h2{
 	background:url('imagenes/19.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton20{
@@ -389,6 +431,8 @@ h2{
 	background:url('imagenes/20.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .boton21{
@@ -400,6 +444,8 @@ h2{
 	background:url('imagenes/21.png') no-repeat scroll 0px 2px transparent;
 	background-color:#FFFFFF;
 	border:#003333 solid 1px;
+	*display: inline;
+	zoom: 1;
 }
 
 .imgs1{

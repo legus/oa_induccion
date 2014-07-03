@@ -46,6 +46,8 @@ h2{
 	display: inline-block;
 	margin: 0px;
 	width:720px;
+	*display: inline;
+	zoom: 1;
 }
 
 #contenido_interactivo{
@@ -77,8 +79,8 @@ h2{
 }
 
 
-.botones{
-	background-color:#990000;
+.botones_cont5{
+	background-color:#cc6633;
 	border-radius:2px;
 	color:#fff;
 	display:inline-block;
@@ -88,11 +90,13 @@ h2{
 	padding: 0px 1px;
 	margin:0.2em 0.1em;
 	vertical-align: top;
-	width:94.5px;
+	width:94px;
 	text-align:center;
+	*display: inline;
+	zoom: 1;
 }
 
-.botones:hover{
+.botones_cont5:hover{
 	box-shadow: rgba(0,0,0,.9) 0px 4px 10px;
 	cursor:pointer;
 	-ms-transform:scale(1.2);

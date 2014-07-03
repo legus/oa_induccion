@@ -56,15 +56,14 @@ img
 {
 	float: right;
 }
-
 .enlaces
 {
-	color: #996633;
-	font-size: 1.2em;
+	color: #2d5d93;
+	font-size: 0.9em;
 	text-decoration: none;
 }
 .enlaces:hover
 {
-	color: #663300;
+	color: #003366;
 	text-decoration: underline;
 }

@@ -1,8 +1,10 @@
 ﻿$(document).on("ready", arranque);
 function arranque(){	
 	var aud=0;
-	$(".botones").click(function(){
+	$(".botones_cont5").click(function(){
 		$(".recuadros").slideUp();
+		$(".botones_cont5").css("background-color","#cc6633");
+		$(this).css("background-color","#cc0000");
 		switch($(this).attr("id")){
 			case 'btn1':
 				$("#rec1").slideDown();

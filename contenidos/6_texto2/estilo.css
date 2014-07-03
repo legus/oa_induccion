@@ -6,12 +6,15 @@ body
 	text-align: center;
 }
 
-h1
-{
-	font-size: 1.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.2em;
-	padding: 0px;
+h1{
+	color:#2d5d93;
+	font-family:Verdana;
+	font-size:1.5em;
+	font-weight: bold;
+	margin:0 auto;
+	padding:10px 5px 5px 5px;
+	text-align:center;
+	width:450px;
 }
 
 img

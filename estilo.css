@@ -25,28 +25,66 @@ h1
 }
 h2
 {
-	font-size: 1.5em;
+	color: #2d5d93;
+	font-size: 1.3em;
 }
 h3
 {
-	font-size: 1em;
+	color: #2d5d93;
+	font-size: 0.9em;
 }
 
 #presentacion
 {
-	margin: 0px;
+	margin: 2em 0;
 }
+
+#bienvenida
+{
+	/*border: 1px solid #000;*/
+	display: inline-block;
+	height: 100%;
+	width: 70%;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+}
+
+#botonera
+{
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+	zoom: 1;
+    *display: inline;
+}
+
+#botonera1 
+{
+	/*border: 1px solid #000;*/
+	display: inline-block;
+	height: 100%;
+	width: 28%;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+}
+
+#cont
+{
+	/*border: 1px solid #000;*/
+	height: 400px;
+	width: 800px;
+}
+
 
 .botones_main
 {
-	border-radius: 0.5em;
-	display: inline-block;
-	height: 210px;
-	margin: 5em 2em;
-	padding: 5px;
-	text-align: center;
-	width:210px;
-	transition: all 0.2s ease-out
+	/*border-radius: 0.5em;*/
+	height: 160px;
+	margin: 25px auto;
+	width:160px;
+	transition: all 0.2s ease-out;
 }
 
 .botones
@@ -56,6 +94,8 @@ h3
 	padding: 0;
 	width: 90px;
 	transition: all 0.2s ease-out;
+	zoom: 1;
+    *display: inline;
 }
 
 .botones:hover, .botones_main:hover, .st_navs:hover, .menu_lateral:hover, .menu_internos:hover
@@ -76,13 +116,6 @@ h3
 #btn2
 {
 	background: url("imagenes/btn2.png") no-repeat center #81A2C1;
-}
-
-#botonera
-{
-	display: inline-block;
-	height: 100px;
-	width: 100%;
 }
 
 #boton1
@@ -162,6 +195,8 @@ h3
 	height: 360px;
 	vertical-align: top;
 	width: 240px;
+	zoom: 1;
+    *display: inline;
 }
 
 #personaje_adm
@@ -171,6 +206,8 @@ h3
 	height: 360px;
 	vertical-align: top;
 	width: 460px;
+	zoom: 1;
+    *display: inline;
 }
 
 #personaje_doc
@@ -180,6 +217,8 @@ h3
 	height: 360px;
 	vertical-align: top;
 	width: 460px;
+	zoom: 1;
+    *display: inline;
 }
 
 .prevs1, #prevs1_0
@@ -190,6 +229,8 @@ h3
 	height: 90%;
 	margin: 1em auto;
 	width: 90%;
+	zoom: 1;
+    *display: inline;
 }
 
 .prevs2, #prevs2_0
@@ -200,6 +241,8 @@ h3
 	margin: 0px;
 	padding: 5px;
 	width: 80%;
+	zoom: 1;
+    *display: inline;
 }
 
 .prevs1_text, #prevs1_0_text
@@ -264,11 +307,13 @@ h3
 {
 	/*background: url("imagenes/flecha.png") no-repeat;
 	padding-top:10em;*/ 
-	margin-top: 10em;
+	margin-top: 13em;
 }
 
 .st_navs
 {
+	/*border: 1px solid #000;
+	background-color: #000;*/
 	display: inline-block;
 	height: 100%;
 	margin: 0;
@@ -280,6 +325,18 @@ h3
 	zoom: 1;
 }
 
+
+#st_contenidos1
+{
+	display: inline-block;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	*display: inline;
+	zoom: 1;
+}
 
 #st_contenidos
 {
@@ -294,6 +351,7 @@ h3
 	*display: inline;
 	zoom: 1;
 }
+
 
 #menu_doc
 {
@@ -390,3 +448,35 @@ h3
 	top: -515px;
 	width: 720px;
 }
+
+.txt_bienvenida
+{
+	color: #2d5d93;
+	font-family: Verdana;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.txt_bienvenida2
+{
+	color: #2d5d93;
+	font-family: Verdana;
+	font-size: 1.2em;
+}
+
+.imagenes_main
+{
+	display: block;
+	margin: 10px auto;
+}
+
+
+/*@keyframes logo_simb{
+0%{width:10%}
+100%{width:100%}
+}
+
+#bienvenida
+{
+	animation: logo_simb 3s 1 ease;
+}*/

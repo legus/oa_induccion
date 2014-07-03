@@ -88,6 +88,8 @@ h2{
 	margin-right:0.3em;
 	text-align: center;
 	width:660px;
+	*display: inline;
+	zoom: 1;
 }
 
 #rec0 p{
@@ -103,6 +105,8 @@ h2{
 	padding-top: 3px;
 	text-align: right;
 	vertical-align: top;
+	*display: inline;
+	zoom: 1;
 }
 
 
@@ -129,6 +133,8 @@ h2{
 	position:relative;
 	width:6em;
 	text-align:center;
+	*display: inline;
+	zoom: 1;
 }
 
 .botones:hover{

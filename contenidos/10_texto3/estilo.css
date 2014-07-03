@@ -2,17 +2,21 @@ body
 {
 	color: #000;
 	font-family: verdana;
-	font-size: 15px;
+	font-size: 16px;
 	text-align: center;
 }
 
-h1
-{
-	font-size: 1.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.2em;
-	padding: 0px;
+h1{
+	color:#2d5d93;
+	font-family:Verdana;
+	font-size:1.8em;
+	font-weight: bold;
+	margin:0 auto;
+	padding:10px 5px 5px 5px;
+	text-align:center;
+	width:450px;
 }
+
 
 img
 {
@@ -34,6 +38,7 @@ img
 
 .cont_txt
 {
+	margin: 1.5em 0;
 	padding: 0 1em;
 	text-align: left;
 }
@@ -47,35 +52,4 @@ img
 	overflow: auto;
 	padding: 0;
 	width: 95%;
-}
-
-.botones{
-	background-color: rgb(15,87,144);
-	box-shadow: rgba(226,247,255,.9) 0px 2px 5px;
-	border-radius:5px;
-	display:inline-block;
-	font-family:Verdana;
-	font-size:1.2em;
-	height: 30px;
-	margin: 0 auto;
-	padding: 0.5em 0em;
-	text-align: center;
-	transition: all 0.3s linear;
-	width:25%;
-	*display: inline;
-	zoom: 1;
-}
-
-.botones:hover{
-	box-shadow: rgb(15,87,144) 0px 2px 5px;
-	background-color: #6699cc;
-	color:rgb(15,87,144);
-	cursor:pointer;
-	z-index:1;
-}
-
-.botones a
-{
-	text-decoration: none;
-	color:#fff;
 }

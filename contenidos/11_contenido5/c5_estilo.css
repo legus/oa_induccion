@@ -88,6 +88,8 @@ h2{
 	margin-right:0.3em;
 	text-align: center;
 	width:660px;
+	*display: inline;
+	zoom: 1;
 }
 
 #rec0 p{
@@ -103,13 +105,15 @@ h2{
 	padding-top: 3px;
 	text-align: right;
 	vertical-align: top;
+	*display: inline;
+	zoom: 1;
 }
 
 
 #recuadro{
 	background: #fff;
 	border-radius: 30px;
-	height:340px;
+	height:390px;
 	margin-top:20px;
 	margin-left:15px;
 	width:690px;
@@ -130,6 +134,8 @@ h2{
 	position:relative;
 	width:8em;
 	text-align:center;
+	*display: inline;
+	zoom: 1;
 }
 
 .botones:hover{
@@ -158,8 +164,8 @@ h2{
 	color:rgb(18, 112, 191);
 	display:none;
 	font-family:breeserif;
-	font-size:0.9em;
-	height:270px;
+	font-size:1em;
+	height:300px;
 	margin-left:20px;
 	text-align:justify;
 	width:660px;

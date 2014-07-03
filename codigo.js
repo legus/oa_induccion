@@ -4,7 +4,7 @@ var titulos=[];
 var btn=0;
 var contenidos=0;
 function arranque(){
-	console.log($("h1").attr("id"));
+	/*console.log($("h1").attr("id"));*/
 	urls_contenidos=[["1_bienvenida"],
 					["2_texto1","3_contenido1","4_himnoUnisangil","5_historia","6_texto2","7_contenido2","8_contenido3","9_contenido4","10_texto3","11_contenido5"],
 					["12_contenido6","13_contenido7","14_texto4"],
@@ -23,7 +23,7 @@ function arranque(){
 	$(".botones").on("mouseover",pasar);
 	$(".st_navs").css("visibility","hidden");
 	$("#menu_interno1").css("visibility","hidden");
-
+	$("#menu_interno2").css("visibility","hidden");
 	$(".prevs1").css("display","none");
 	$(".prevs2").css("display","none");
 }
@@ -41,7 +41,7 @@ function pasar(datos){
 
 function clic_btns(datos){
 	btn=parseInt($(datos.target).attr("id").charAt($(datos.target).attr("id").length-1));//del id del botón presionado, se saca el último caracter y éste se convierte en número
-	console.log(btn);
+	/*console.log(btn);*/
 	contenidos=0;
 	if(btn==6){
 		$("#st_nav_der").css("visibility","hidden");
@@ -62,8 +62,9 @@ function clic_btns(datos){
 	}
 }
 
-function clic_h_der(datos){
-	console.log("el derecho: "+contenidos);
+function clic_h_der(datos){/*Navegación hacia la DERECHA de los subtemas Internos*/
+	console.log("clic_h_der");
+	/*console.log("el derecho: "+contenidos);*/
 	contenidos++;
 	$("#st_nav_izq").css("visibility","visible");
 	$("#frame").fadeIn();
@@ -74,7 +75,8 @@ function clic_h_der(datos){
 	}
 }
 
-function clic_h_izq(datos){
+function clic_h_izq(datos){/*Navegación hacia la IZQUIERDA de los subtemas Internos*/
+	console.log("clic_h_izq");	
 	//window.alert("el izquierdo: "+contenidos);
 	contenidos--;
 	$("#st_nav_der").css("visibility","visible");
@@ -86,9 +88,13 @@ function clic_h_izq(datos){
 	}
 }
 
-function clic_t_der(datos){
+function clic_t_der(datos){/*Navegación hacia la DERECHA de los temas grandes*/
 	btn++;
 	contenidos=0;
+	console.log("clic_t_der"+btn);
+	if($("h1").attr("id")=="adm_tit" && btn==5){
+		btn=6;
+	}
 	$("#st_nav_der").css("visibility","visible");
 	$("#st_nav_izq").css("visibility","hidden");
 	$("#menu_interno1").css("visibility","visible");
@@ -102,14 +108,22 @@ function clic_t_der(datos){
 	}
 	if(btn==urls_contenidos.length){
 		$("#menu_interno2").css("visibility","hidden");
-		console.log("final topic derecho");
+		/*console.log("final topic derecho");*/
+	}
+	if(btn==1){
+		$("#menu_interno1").css("visibility","hidden");
+		$("#st_nav_der").css("visibility","hidden");
+		/*console.log("final topic derecho");*/
 	}
 }
 
-function clic_t_izq(datos){
-	//window.alert("el topic izquierdo: "+(btn-2)+" - "+urls_contenidos[btn-2][0]);
+function clic_t_izq(datos){/*Navegación hacia la IZQUIERDA de los temas grandes*/
 	btn--;
 	contenidos=0;
+	console.log("clic_t_izq"+btn);
+	if($("h1").attr("id")=="adm_tit" && btn==5){
+		btn=4;
+	}
 	$("#st_nav_der").css("visibility","visible");
 	$("#st_nav_izq").css("visibility","hidden");
 	$("#menu_interno2").css("visibility","visible");

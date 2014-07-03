@@ -2,23 +2,23 @@
 function arranque(){
 	$("#pagina1").slideToggle('slow', function(){
 		$("#btn1").animate({
-			top: ['+=268', 'swing'],
+			top: ['+=312', 'swing'],
 			right: ['-=10', 'swing']
 		}, 1000);
 		$("#btn2").animate({
-			top: ['+=234', 'swing'],
+			top: ['+=278', 'swing'],
 			right: ['-=14', 'swing']
 		}, 1500);
 		$("#btn3").animate({
-			top: ['+=251', 'swing'],
+			top: ['+=295', 'swing'],
 			right: ['-=15', 'swing']
 		}, 2500);
 		$("#btn4").animate({
-			top: ['+=251', 'swing'],
+			top: ['+=295', 'swing'],
 			right: ['-=19', 'swing']
 		}, 2000);
 		$("#btn5").animate({
-			top: ['+=234', 'swing'],
+			top: ['+=278', 'swing'],
 			right: ['-=23', 'swing']
 		}, 1500);
 	});
